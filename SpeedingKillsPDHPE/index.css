@@ -1,0 +1,187 @@
+
+body {
+    position: relative;
+}
+
+#home-container {
+    max-width: 100vw;
+    height: 92vh;
+    background-color: black;
+    color: white;
+    background-image: url("crash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+
+
+
+#home-title-container {
+    width: calc(100vw - 300px);
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 201, 45);
+    vertical-align: center;
+    position: relative;
+
+}
+#home-title-container img {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: pulse 5s ease-in-out 0s infinite;
+}
+#home-title-container h1 {
+
+    font-size: 90px;
+    font-family: 'Arvo', serif;
+    letter-spacing: 10px;
+    line-height: 1.2;
+}
+#home-title-container #bold-title {
+    font-size: 120px;
+    font-family: 'Black Han Sans', cursive;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+#home-title-container h2 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+#home-title-container button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255, 201, 45);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline:0;
+}
+#home-title-container button:focus, #home-title-container button:active {
+    outline:0;
+    border: none;
+}
+
+.yellow-container {
+    background-color: rgb(255, 201, 45);
+    position: relative;
+    padding: 120px;
+
+}
+.yellow-container:after {
+    content:'';
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: solid 50px rgb(255, 201, 45);
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+
+}
+
+.center-container {
+    width: 80vw;
+    margin: auto;
+
+}
+.center-container:before,
+.center-container:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.center-container:after {
+  clear: both;
+}
+.center-container h1 {
+    font-size: 80px;
+    font-family: 'Black Han Sans', cursive;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+#c1 {
+    flex: 0 0 65%;
+}
+#c2 {
+    flex: 1;
+}
+.column {
+    width: calc(50% - 70px);
+    margin: 0 35px;
+    float: left;
+}
+.column ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    list-style-type: square;
+}
+.column li {
+    margin-top: 10px;
+    line-height: normal;
+}
+
+@keyframes pulse {
+  0% {
+      opacity: 0.6;
+      transform: scale(1);
+  }
+  80% {
+      opacity: 1;
+      transform: scale(1.4);
+  }
+  100% {
+      opacity: 0.6;
+      transform: scale(1);
+  }
+}
+
+
+
+
+@media (max-width:1935px){
+
+    #home-title-container img {
+        width: 200px;
+        position: static;
+        margin-bottom: 75px;
+    }
+    #home-title-container button {
+        margin-bottom: 100px;
+    }
+
+}
+@media (max-width:975px){
+    #home-title-container img {
+        width: 120px;
+    }
+    .column {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 100px;
+    }
+    .center-container h1 {
+        text-align: center;
+    }
+    #elipses {
+        display: none;
+    }
+
+
+}
