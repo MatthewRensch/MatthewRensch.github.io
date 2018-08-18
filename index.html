@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Speeding Kills</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo:700i|Black+Han+Sans|Open+Sans" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,11 +17,17 @@
 
     <div id="home-container">
 
+        <ul class="menu">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a class="hvr-underline-from-left" href="tips.html">Tips</a></li>
+            <li><a class="hvr-underline-from-left" href="sources.html">Sources</a></li>
+        </ul>
+
         <div id="home-title-container">
 
             <img src="slowsign.png" />
 
-            <h1>Speed<span id="elipses">...</span> <span id="bold-title">Kills</span></h1>
+            <h1>Speed<span class="elipses">...</span> <span id="bold-title">Kills</span></h1>
 
             <h2>-&nbsp;The biggest killer of young drivers is speeding&nbsp;-</h2>
 
@@ -36,7 +43,7 @@
 
         <div class="center-container">
 
-            <h1>The facts...</h1>
+            <h1>The facts<span class="elipses">...</span></h1>
 
             <div id="c1" class="column">
 
@@ -69,6 +76,17 @@
         </div>
 
     </div>
+
+    <footer>
+
+        <p>
+            Website designed and made by Matthew Rensch as part of Year 10 PDHPE Assingment.
+        </p>
+        <p>
+            &copy; 2018. All rights Reserved.
+        </p>
+
+    </footer>
 
     <script>
     $("button").click(function() {
