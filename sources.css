@@ -67,32 +67,14 @@ body {
 
 }
 
-.center-container ul {
+.center-container ol {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    list-style-type: square;
 }
 .center-container li {
     margin-top: 10px;
-
 }
 
-footer {
-    border-top: 100px solid #ededed;
-    background-color: black;
-    color: #ededed;
-    text-align: center;
-    padding: 20px !important;
-
-}
-footer p:first-child {
-    margin-top: 0;
-}
-footer p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    margin-top: 10px;
-}
 
 
 @keyframes pulse {
