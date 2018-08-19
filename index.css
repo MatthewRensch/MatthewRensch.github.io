@@ -1,6 +1,7 @@
 
 body {
     position: relative;
+
 }
 
 #home-container {
@@ -27,6 +28,7 @@ body {
     color: rgb(255, 201, 45);
     vertical-align: center;
     position: relative;
+    height: 60vh;
 
 }
 #home-title-container img {
