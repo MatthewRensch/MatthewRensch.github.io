@@ -8,11 +8,11 @@
     left: 100px;
 
 }
-li {
+.menu li {
     float: left;
 
 }
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
