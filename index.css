@@ -28,7 +28,7 @@ body {
     color: rgb(255, 201, 45);
     vertical-align: center;
     position: relative;
-    height: 60vh;
+
 
 }
 #home-title-container img {
@@ -202,6 +202,9 @@ font-family: 'Open Sans', sans-serif;    text-transform: uppercase;
 
 @media (max-width:1935px){
 
+#home-title-container {
+    height: 60vh;
+}
     #home-title-container img {
         width: 200px;
         position: static;
@@ -213,6 +216,7 @@ font-family: 'Open Sans', sans-serif;    text-transform: uppercase;
     .elipses {
         display: none;
     }
+
 
 }
 @media (max-width:975px){
