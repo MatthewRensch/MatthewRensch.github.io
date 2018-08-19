@@ -176,6 +176,7 @@ font-family: 'Open Sans', sans-serif;    text-transform: uppercase;
 }
 
 footer {
+    border-top: 100px solid #ededed;
 
     background-color: black;
     color: #ededed;
